@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+html{
+    font-size: 1.2rem;
+    font-family: "El Messiri", sans-serif;
+}
+body{
+    background-color: rgba(18, 65, 12, 0.849);
+}
+header{
+    background-color: rgb(27, 122, 64);
+    text-align: center;
+}
+footer{
+    background-color: rgb(28, 117, 20);
+    padding: 10px 50px;
+}   
+.introduction{
+    background-color: rgb(5, 87, 62);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.inventions{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.company{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.base{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.protectionTechnologies{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.facts{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-family: "Press Start 2P", system-ui;
+}
+h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 500;
+    font-style: initial;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 10px;
+    color: black;
+    line-height: 20px;
+}
+.vvedenie{
+    color: green;
+}
+.icon
+{
+    width:50px;
+    border: 10px;
+    border: 10px double black;
+    margin-bottom: 50 px;
+}
+.avatar{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px green;
+}
+.virus{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px green;
+}
+:lang(en){
+    font-style: initial;
+}
+.termin{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px green;
+}
+.information{
+    padding: 20px 50px;
+
+}
+.content{
+    padding: 20px, 50px;
+}
+a:visited{
+    color: rgba(68, 14, 0, 0.699);
+}
+a:link{
+    color: rgb(61, 20, 0);
+}
+a:focus{
+    color: chartreuse;
+    text-decoration: overline;
+}
+a:hover{
+    color: rgb(0, 255, 64);
+    text-decoration: overline;
+}
+.inf::before{
+    content: "важно";
+    color: black;
+    border: solid 2px black;
+    background-color: green;
+}
+.inf::after{
+    content: "важно";
+    color: black;
+    border: solid 2px black;
+    background-color: green;
+}
+p::first-line{
+    letter-spacing: .2rem;
+}
+.table-example{
+    border: 5px rgb(0, 255, 55) solid;
+    border-collapse: collapse;
+}
+.table-example td,
+.table-example th{
+    border: #000000 1px solid;
+    padding: 10px 20px;
+}
+.table-example td:nth-child(1){
+    color: rgb(77, 12, 12);
+    font-weight: bold;
+}
+.table-example tr:nth-child(odd){
+    background-color: rgb(76, 180, 111);
+    border-bottom: 1px solid blueviolet;
+}
+.table-example tr:nth-child(odd ) td{
+    border-bottom: 1px solid rgb(0, 255, 55);
+}
+#contact-form {
+    margin: 20px auto;
+    padding: 30px;
+}
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: black solid;
+    background-color: rgb(94, 177, 74);
+}
+#contact-form input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    border: black solid;
+    background-color: rgb(94, 177, 74);
+}
+#contact-form input[type="topic"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    border: black solid;
+    background-color: rgb(94, 177, 74);
+}
+#contact-form textarea {
+    height: 100px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: black solid;
+    background-color: rgb(94, 177, 74);
+}
+#contact-form input[type="submit"] {
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    background-color: rgb(94, 177, 74);
+}
+#contact-form input[type="submit"]:hover {
+    background-color: rgb(43, 255, 0);
+    border: 1px black solid;
+    border-radius: 5px;
+}
+#contact-form input[type = "submit"]:disabled{
+    background-color: lightgrey;
+    color: gray;
+    border: 1px solid gray;
+}
+#contact-form input[type = "password"]{
+    background-color: lavender;
+    border: none;
+    border-bottom: 1px solid darkblue;
+    padding: 7px;
+}
+#contact-form input[type = "text"]:hover
+#contact-form input[type = "password"]:hover{
+    background-color: lavender;
+}

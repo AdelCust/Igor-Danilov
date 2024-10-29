@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstSite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header> 
+        <h1>
+            Игорь Данилов
+        </h1>
+        <img src="img/shield-shaded.svg" alt="логотип" width="100px">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#introduction"> Введение </a>
+                </li>
+                <li>
+                    <a href="#information"> Информация </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="introduction" id="introduction">
+            <h2 class="vvedenie"> Введение </h2>
+            <a href="img/unnamed.jpg" download>
+                <img class ="avatar" src="img/unnamed.jpg" alt="портрет" width="300px">
+            </a>
+            <blockquote>
+                Если человек хочет, он добьется всего.
+                <cite>
+                    &copy; Игорь Данилов
+                </cite>
+            </blockquote>
+            <div lang="en">
+                <p>Previously, Casper was called the good ghost. Now it's an evil antivirus!</p>
+            </div>
+            <p>
+                Родился 22 апреля 1964 года в Ленинграде.
+            </p>
+            <p>
+                После обучения в Ленинградском институте авиационного приборостроения (ныне — ГУАП) работал инженером по авиационным оборонным проектам в ЦНПО «Ленинец». С 1990 года занимается разработками в области антивирусной защиты. В 1992 начал разработку антивируса Dr.Web, а <ins>в 1993 году Dr.Web стал первой антивирусной программой, распознавшей и уничтожившей полиморфный вирус</ins>, что принесло ему известность в среде мировых разработчиков антивирусных средств и специалистов по борьбе с вирусами.
+            </p>
+            <p>
+                <strong>В 2003 основал компанию «Доктор Веб».</strong>
+            </p>
+        </section>
+        <section class = "information" id="information">
+            <h2 class="inf"> Информация </h2>
+            <ol>
+                <li><a href="inventions.html"> изобретения </a></li>
+                <li><a href="company.html">о компании</a></li>
+                <li><a href="facts.html"> интересные факты </a></li>
+                <li><a href="terms.html" id="terms">список терминов</a></li>
+            </ol>
+        </section>
+        <section>
+            <h2>Обратная связь</h2>
+                <form id="contact-form">
+                    <div class="form_item">
+                        <label >Тема</label><br>
+                        <select type="topic" name="topic" id="topic">
+                            <option value="1">Заказать услугу</option>
+                            <option value="2">Оставить отзыв/замечание</option>
+                            <option value="3">Предложить сотрудничество</option>
+                            <option value="4">Другое</option>
+                        </select><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="name">Имя</label><br>
+                        <input type="text" name="name" id="name" required><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="email">E-mail</label><br>
+                        <input type="email" name="email" id="email" required><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="text2">
+                            Текст сообщения
+                        </label><br>
+                        <textarea type="text2" name="text2" id="text2"></textarea><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="date">Дата</label><br>
+                        <input type="date" name="date" id="name" required><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="tel">Телефон</label><br>
+                        <input type="tel" name="tel" id="tel" required><br>
+                    </div>
+                    <div class="form_item">
+                        <input type="checkbox" id="agreement">
+                        <label for="agreement">согласие с политикой конфиденциальности</label><br>
+                    </div>
+                    <div class="form_item">
+                        <input type="submit">
+                    </div>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; Сысоева Алина, 2024</p>
+        <a href="tel: +89513000567"> 8 951-300-05-67</a>
+        <a href="mailto:biography3000@mail.ru"> biography3000@mail.ru </a>
+        <p>если остались вопросы:</p>
+        <a href="https://portal.midis.info/company/personal/user/20738/" rel="noopener" >-можете обратится на аккаунт портала</a>
+        <p>
+            <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87" target="_blank">источники информации
+        </p>
+        <p>
+            <a href="img/shield-shaded.svg">
+                <img class="icon" src="img/shield-shaded.svg" alt="иконка антивируса">
+            </a>
+        </p>
+        <p>Информация актуальна на момент</p>
+        <time datetime="2024-10-08T10:00">
+            10:00 08.10.2024
+
+    </footer>
+</body>
+</html>

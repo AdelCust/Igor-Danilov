@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table-example">
+        <caption>Счёт</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Стоимоть</th>
+                <th>Итого</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Торт</td>
+                <td>500</td>
+                <td>1</td>
+                <td>1000</td>
+                <td rowspan="3">2600</td>
+            </tr>
+            <tr>
+                <td>Мафины</td>
+                <td>100</td>
+                <td>6</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td>Чизкейк</td>
+                <td>250</td>
+                <td>2</td>
+                <td>500</td>
+            </tr>
+        </body>
+    </table>
+    <form id="form-example">
+        <label for="login">Введите логин</label><br>
+        <input type="text" id="login" required placeholder="Логин"><br>
+        <label for="pas">Введите пароль</label><br>
+        <input type="password" id="pas" required placeholder="Пароль"><br>
+        <input type="checkbox" id="agreement">
+        <label for="agreement">Запомнить меня </label> <br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">ж</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">м</label>
+        <input type="submit" value="Войти">
+    </form>
+</body>
+</html>
