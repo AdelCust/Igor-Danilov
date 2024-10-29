@@ -54,6 +54,7 @@ h2{
     text-decoration: overline;
     font-family: "Press Start 2P", system-ui;
 }
+
 h1{
     font-family: "Press Start 2P", system-ui;
     font-weight: 500;
@@ -92,6 +93,9 @@ p{
 }
 :lang(en){
     font-style: initial;
+}
+.lalala p::first-line{
+    letter-spacing: 30px;
 }
 .termin{
     display: block;
@@ -149,7 +153,6 @@ p::first-line{
 }
 .table-example tr:nth-child(odd){
     background-color: rgb(76, 180, 111);
-    border-bottom: 1px solid blueviolet;
 }
 .table-example tr:nth-child(odd ) td{
     border-bottom: 1px solid rgb(0, 255, 55);
@@ -174,6 +177,20 @@ p::first-line{
     background-color: rgb(94, 177, 74);
 }
 #contact-form input[type="topic"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    border: black solid;
+    background-color: rgb(94, 177, 74);
+}
+#contact-form input[type="date"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    border: black solid;
+    background-color: rgb(94, 177, 74);
+}
+#contact-form input[type="tel"] {
     height: 20px;
     width: 250px;
     padding: 5px;
